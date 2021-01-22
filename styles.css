@@ -5,6 +5,10 @@
 }
 
 .main {
+  overflow: hidden;
+}
+
+.bg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +17,7 @@
   background-image: url("images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   overflow: hidden;
 }
 
@@ -20,6 +25,7 @@
   width: 9rem;
   height: auto;
   padding-bottom: 0.4rem;
+  overflow: hidden;
 }
 
 .main h1 {
